@@ -1,0 +1,34 @@
+<catalogos>
+    <catalogo_libros>
+    <libro id="001">
+         <titulo>Clean Code</titulo>
+         <autor>Robert C.Martin</autor>
+         <anio>2008</anio>
+    </libro>
+    <libro id="002">
+         <titulo>Harry Potter y la Piedra Filosodal</titulo>
+         <autor>J.K.Rowling</autor>
+         <anio>2000</anio>
+    </libro>
+    <libro id="003">
+         <titulo>Harry Potter y la Cámara de los Secretos</titulo>
+         <autor>J.K.Rowling</autor>
+         <anio>2001</anio>
+    </libro>
+    </catalogo_libros>
+    <catalogo_discos>
+           <disco temas="15">
+               <nombre>Éxitos Hanz Zimmer</nombre>
+               <estilo>Instrumental</estilo>
+           </disco>
+           <disco temas="12">
+                <nombre>Grandes Éxitos John Williams</nombre>
+                <estilo>Instrumental</estilo>
+           </disco>
+           <disco temas="16">
+                 <nombre>Los mejores éxitos de Piano</nombre>
+                  <estilo>Clásica</estilo>
+            </disco>
+    </catalogo_discos>
+</catalogos>
+
