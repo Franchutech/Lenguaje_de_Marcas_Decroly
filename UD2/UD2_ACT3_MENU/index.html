@@ -1,41 +1,87 @@
-<table class="Table">
-<thead>
-<tr>
-<th class="Menu">
-    <th>Menú</th>
-</th>
-<th class ="Dias">
-    <th>Lunes</th>
-    <th>Martes</th>
-    <th>Miércoles</th>
-    <th>Jueves</th>
-    <th>Viernes</th>
-    <th>Sábado</th>
-    <th>Domingo</th>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>cell1_1</td><td>cell2_1</td><td>cell3_1</td><td>cell4_1</td><td>cell5_1</td><td>cell6_1</td><td>cell7_1</td><td>cell8_1</td></tr>
-<tr>
-<td>cell1_2</td><td>cell2_2</td><td>cell3_2</td><td>cell4_2</td><td>cell5_2</td><td>cell6_2</td><td>cell7_2</td><td>cell8_2</td></tr>
-<tr>
-<td>cell1_3</td><td>cell2_3</td><td>cell3_3</td><td>cell4_3</td><td>cell5_3</td><td>cell6_3</td><td>cell7_3</td><td>cell8_3</td></tr>
-<tr>
-<td>cell1_4</td><td>cell2_4</td><td>cell3_4</td><td>cell4_4</td><td>cell5_4</td><td>cell6_4</td><td>cell7_4</td><td>cell8_4</td></tr>
-<tr>
-<td>cell1_5</td><td>cell2_5</td><td>cell3_5</td><td>cell4_5</td><td>cell5_5</td><td>cell6_5</td><td>cell7_5</td><td>cell8_5</td></tr>
-<tr>
-<td>cell1_6</td><td>cell2_6</td><td>cell3_6</td><td>cell4_6</td><td>cell5_6</td><td>cell6_6</td><td>cell7_6</td><td>cell8_6</td></tr>
-<tr>
-<td>cell1_7</td><td>cell2_7</td><td>cell3_7</td><td>cell4_7</td><td>cell5_7</td><td>cell6_7</td><td>cell7_7</td><td>cell8_7</td></tr>
-<tr>
-<td>cell1_8</td><td>cell2_8</td><td>cell3_8</td><td>cell4_8</td><td>cell5_8</td><td>cell6_8</td><td>cell7_8</td><td>cell8_8</td></tr>
-<tr>
-<td>cell1_9</td><td>cell2_9</td><td>cell3_9</td><td>cell4_9</td><td>cell5_9</td><td>cell6_9</td><td>cell7_9</td><td>cell8_9</td></tr>
-<tr>
-<td>cell1_10</td><td>cell2_10</td><td>cell3_10</td><td>cell4_10</td><td>cell5_10</td><td>cell6_10</td><td>cell7_10</td><td>cell8_10</td></tr>
-</tbody>
-</tr>
-</table>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Semanal del Restaurante</title>
+
+  <!-- Vinculación del archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Menú Semanal del Restaurante</h1>
+
+  <table class="menu-semanal">
+    <thead>
+      <tr>
+        <th class="col-menu">MENÚ</th>
+        <th>LUNES</th>
+        <th>MARTES</th>
+        <th>MIÉRCOLES</th>
+        <th>JUEVES</th>
+        <th>VIERNES</th>
+        <th>SÁBADO</th>
+        <th>DOMINGO</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- Entrantes -->
+      <tr class="seccion">
+        <th rowspan="3" class="col-menu">ENTRANTES</th>
+        <td>Crema de Tomate</td><td>Crema de Tomate</td><td>Crema de Tomate</td><td>Crema de Tomate</td><td>Crema de Tomate</td><td>Crema de Pollo</td><td>Crema de Verduras</td>
+      </tr>
+      <tr>
+        <td>Ensalada Rusa</td><td>Ensalada Rusa</td><td>Ensalada Rusa</td><td>Ensalada Rusa</td><td>Ensalada Rusa</td><td>Ensalada Costera</td><td>Ensalada Americana</td>
+      </tr>
+      <tr class="fin-seccion">
+        <td>Patatas Bravas</td><td>Patatas Bravas</td><td>Patatas Bravas</td><td>Patatas Bravas</td><td>Patatas Bravas</td><td>Patatas Fritas</td><td>Patatas Fritas</td>
+      </tr>
+
+      <!-- Línea para separar -->
+      <tr class="separador"><td colspan="8"></td></tr>
+
+      <!-- Platos principales -->
+      <tr class="seccion">
+        <th rowspan="5" class="col-menu">PLATO PRINCIPAL</th>
+        <td>Pasta Bolognesa</td><td>Pasta Bolognesa</td><td>Pasta Bolognesa</td><td>Pasta Bolognesa</td><td>Pasta Bolognesa</td><td>Pasta Bolognesa</td><td>Pasta Bolognesa</td>
+      </tr>
+      <tr>
+        <td>Pasta Carbonara</td><td>Pasta Carbonara</td><td>Pasta Carbonara</td><td>Pasta Carbonara</td><td>Pasta Carbonara</td><td>Pasta Carbonara</td><td>Pasta Carbonara</td>
+      </tr>
+      <tr>
+        <td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td><td>Pasta Pesto y Pistacho</td>
+      </tr>
+      <tr>
+        <td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td><td>Pasta Queso y Albahaca</td>
+      </tr>
+      <tr class="fin-seccion">
+        <td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td><td>Pasta Pollo y Especias</td>
+      </tr>
+
+      <!-- Segundo separador -->
+      <tr class="separador"><td colspan="8"></td></tr>
+
+      <!-- Postres -->
+      <tr class="seccion">
+        <th rowspan="4" class="col-menu">POSTRES</th>
+        <td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td><td>Brownie con Helado de Vainilla</td>
+      </tr>
+      <tr>
+        <td>Cheesecake Fresa</td><td>Cheesecake Fresa</td><td>Cheesecake Fresa</td><td>Cheesecake Fresa</td><td>Cheesecake Fresa</td><td>Cheesecake Fresa</td><td>Cheesecake Fresa</td>
+      </tr>
+      <tr>
+        <td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td><td>Pastel ChocoFresa</td>
+      </tr>
+      <tr class="fin-seccion">
+        <td>Panacota de Coco</td><td>Panacota de Coco</td><td>Panacota de Coco</td><td>Panacota de Coco</td><td>Panacota de Coco</td><td>Panacota de Coco</td><td>Panacota de Coco</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+
+

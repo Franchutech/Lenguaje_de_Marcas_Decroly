@@ -1,0 +1,82 @@
+/* 1. -- AREA GENERAL-- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #0f3035;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+table.menu-semanal {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Bordes generales */
+th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+/* --DIAS DE LA SEMANA-- */
+thead th {
+  background-color: #175256;       /* Verde azulado oscuro */
+  color: white;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid #0f3035;
+}
+
+/* --AREA MENU-- */
+.col-menu {
+  background-color: #000000;       /* Azul verdoso más oscuro */
+  color: #ffffff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 220px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* --COMIDAS CUADRICULA--*/
+tbody td {
+  background-color: #cbeff4;       /* Azul claro */
+  font-family: 'Calibri', sans-serif;
+  font-size: 13.5px;
+  color: #222;
+  border: 1px solid #000000;
+}
+
+/* -ALTERNAR COLOR EN LAS FILAS */
+tbody tr:nth-child(even):not(.separador) td {
+  background-color: #e8f8fa;       /* tono más suave */
+}
+
+/* --LINEAS PARA SEPARAR SECCIONES-- */
+.separador td {
+  border: none;
+  height: 8px;
+  background-color: #0a0a0a;
+  padding: 0;
+}
+
+/* SOMBRAS-Y ALGUNA OTRA CUESTION QUE NECESITE MAS */
+table.menu-semanal {
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  border: 2px solid #0f3035;
+}
+
