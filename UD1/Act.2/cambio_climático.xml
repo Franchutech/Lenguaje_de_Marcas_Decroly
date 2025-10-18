@@ -1,0 +1,18 @@
+<cambio_climatico>
+    <que_es>Desafío Global</que_es>
+    <causas>Emisiones de gas invernadero</causas>
+        <debido_a subcausa="1">Quema de combustibles fósiles</debido_a>
+        <debido_a subcausa="2">Deforestación</debido_a>
+        <debido_a subcausa="3">Ciertas prácticas agrícolas</debido_a>
+    <consecuencias>
+        <consecuencia nombre="1">Aumento temperaturas</consecuencia>
+        <consecuencia nombre="2">Deshielo</consecuencia>
+        <consecuencia nombre="3">Incremento nivel del mar</consecuencia>
+        <consecuencia nombre="4"> Fenómenos metereológicos Extremos</consecuencia>
+    </consecuencias>
+    <medidas>
+        <medida tipo="1">Eficiencia Energética</medida>
+        <medida tipo="2">Reforestación</medida>
+        <medida tipo="3">Uso de energía renovable</medida>
+    </medidas>
+</cambio_climatico>

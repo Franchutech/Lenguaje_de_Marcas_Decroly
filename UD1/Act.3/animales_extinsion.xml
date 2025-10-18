@@ -1,0 +1,62 @@
+<animales_en_peligro>
+    <animal num="1">
+        <datos_generales>
+            <nombre_cientifico>Oso Pardo</nombre_cientifico>
+            <nombre_comun>Oso</nombre_comun>
+            <ubicacion>Canadá</ubicacion>
+        </datos_generales>
+        <categorias_amenaza>
+            <categoria tipo="1">vulnerable</categoria>
+        </categorias_amenaza>
+        <caracteristicas_físicas>
+            <caracteristica nombre="1">Piel cafe</caracteristica>
+            <caracteristica nombre="1">hibernacion</caracteristica>
+            <caracteristica nombre="1">carníboro</caracteristica>
+        </caracteristicas_físicas>
+    </animal>
+    <animal num="2">
+        <datos_generales>
+            <nombre_cientifico>Oso Polar</nombre_cientifico>
+            <nombre_comun>Oso</nombre_comun>
+            <ubicacion>Alaska</ubicacion>
+        </datos_generales>
+        <categorias_amenaza>
+            <categoria tipo="1">crítico</categoria>
+        </categorias_amenaza>
+        <caracteristicas_físicas>
+            <caracteristica nombre="1">Piel Blanca</caracteristica>
+            <caracteristica nombre="1">hibernacion</caracteristica>
+            <caracteristica nombre="1">carníboro</caracteristica>
+        </caracteristicas_físicas>
+    </animal>
+    <animal num="3">
+        <datos_generales>
+            <nombre_cientifico>Oso Panda</nombre_cientifico>
+            <nombre_comun>Oso</nombre_comun>
+            <ubicacion>China</ubicacion>
+        </datos_generales>
+        <categorias_amenaza>
+            <categoria tipo="1">vulnerable</categoria>
+        </categorias_amenaza>
+        <caracteristicas_físicas>
+            <caracteristica nombre="1">Piel Negra y Blanca</caracteristica>
+            <caracteristica nombre="1">hibernacion</caracteristica>
+            <caracteristica nombre="1">Herbiboro</caracteristica>
+        </caracteristicas_físicas>
+    </animal>
+    <animal num="4">
+        <datos_generales>
+            <nombre_cientifico>Canis Lupus</nombre_cientifico>
+            <nombre_comun>Lobo</nombre_comun>
+            <ubicacion>Suecia</ubicacion>
+        </datos_generales>
+        <categorias_amenaza>
+            <categoria tipo="1">vulnerable</categoria>
+        </categorias_amenaza>
+        <caracteristicas_físicas>
+            <caracteristica nombre="1">Piel Variada</caracteristica>
+            <caracteristica nombre="1">cazador</caracteristica>
+            <caracteristica nombre="1">carníboro</caracteristica>
+        </caracteristicas_físicas>
+    </animal>
+</animales_en_peligro>

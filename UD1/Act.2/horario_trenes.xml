@@ -1,0 +1,36 @@
+<horario>
+    <linea id="L13">
+        <origen>Santander</origen>
+        <destino>Reinosa</destino>
+        <duracion tiempo="minutos">120</duracion>
+        <salidas>
+            <salida hora="08:00">salida mañana</salida>
+                <paradas>
+                    <parada hora="08:10">valdecilla</parada>
+                    <parada hora="08:50">torrelavega</parada>
+                </paradas>
+            <salida hora="09:00">salida 2 mañana</salida>
+                <paradas>
+                    <parada hora="09:10">valdecilla</parada>
+                    <parada hora="09:50">torrelavega</parada>
+                </paradas>
+        </salidas>
+    </linea>
+    <linea id="L23">
+        <origen>Reinosa</origen>
+        <destino>Madrid</destino>
+        <duracion tiempo="minutos">180</duracion>
+        <salidas>
+            <salida hora="09:00">salida mañana</salida>
+                <paradas>
+                    <parada hora="09:10">Palencia</parada>
+                    <parada hora="09:50">Valladolid</parada>
+                </paradas>
+            <salida hora="10:00">salida 2 mañana</salida>
+                <paradas>
+                    <parada hora="10:10">Palencia</parada>
+                    <parada hora="10:50">Valladolid</parada>
+                </paradas>
+        </salidas>
+    </linea>
+</horario>

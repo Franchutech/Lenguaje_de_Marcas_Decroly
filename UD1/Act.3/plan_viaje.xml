@@ -1,0 +1,68 @@
+<Itinerario_Viaje>
+    <país>
+        <ruta66>
+            <Ilinois>
+                <Chicago>
+                    <inicio_ruta>1 de octubre 2025</inicio_ruta>
+                    <planes>
+                        <plan dia="1">
+                            <Actividades>
+                                <Actividad tipo="1">Visita a Millenium Park</Actividad>
+                                    <Coste moneda="$">50</Coste>
+                                    <hora>8:00 AM</hora>
+                                <Actividad tipo="2">Crown Fountain</Actividad>
+                                    <Coste moneda="$">10</Coste>
+                                    <hora>5:00 PM</hora>
+                            </Actividades>
+                        </plan>
+                        <plan dia="2">
+                            <Actividades>
+                                <Actividad tipo="1">Teatro Chicago</Actividad>
+                                    <Coste moneda="$">20</Coste>
+                                    <hora>8:00 AM</hora>
+                                <Actividad tipo="2">Muro de los nueve dragones</Actividad>
+                                    <Coste moneda="$">5</Coste>
+                                    <hora>5:00 PM</hora>
+                            </Actividades>
+                        </plan>
+                    </planes>
+                    <fin_chicago>3 de octubre 2025</fin_chicago>
+                </Chicago>
+            </Ilinois>
+                <San_Luis>
+                    <Llegada>3 de octubre 2025</Llegada>
+                </San_Luis>
+            <Missoiri>
+                <Springfield>
+                </Springfield>
+            </Missoiri>
+            <Oklahoma>
+                <Oklahoma_city>
+                </Oklahoma_city>
+            </Oklahoma>
+            <Texas>
+                <Amarillo>
+                </Amarillo>
+            </Texas>
+            <Nuevo_Mexico>
+                <Albuquerque>
+                </Albuquerque>
+            </Nuevo_Mexico>
+            <Arizona>
+                <Flagstaff>
+                </Flagstaff>
+            </Arizona>
+            <Nevada>
+                <Las_Vegas>
+                </Las_Vegas>
+            </Nevada>
+            <California>
+                <Los_Angeles>
+                    <Santa_Mónica>
+                        <fin_ruta>COLOCAR ULTIMO DIA</fin_ruta>
+                    </Santa_Mónica>
+                </Los_Angeles>
+            </California>
+        </ruta66>
+    </país>
+</Itinerario_Viaje>

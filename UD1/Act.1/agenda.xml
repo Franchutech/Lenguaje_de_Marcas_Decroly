@@ -1,0 +1,19 @@
+<agenda>
+    <contactos>
+        <contacto id="D001">
+            <nombre>Carlos Beltran</nombre>
+            <telefono tipo="movil">654255633</telefono>
+            <email>cbeltran@comercial.com</email>
+        </contacto>
+        <contacto id="D002">
+            <nombre>David Salazar</nombre>
+            <telefono tipo="fijo">256845744</telefono> 
+            <email>dsalazar@comercial.com</email>           
+        </contacto>
+        <contacto id="D003">
+            <nombre>Mauricio Lepiz</nombre>
+            <telefono tipo="trabajo">655324654</telefono>
+            <email>mlepiz@comercial.com</email>
+        </contacto>
+    </contactos>
+</agenda>

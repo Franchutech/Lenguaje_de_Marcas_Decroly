@@ -1,0 +1,48 @@
+<Catalogo_Juegos>
+    <Juegos>
+        <Juego id="1">
+            <titulo>Space Invaded</titulo>
+            <anio>1970</anio>
+            <consola>Atari</consola>
+            <genero>Mature</genero>
+            <modo_multijugador>Si</modo_multijugador>
+            <personajes>
+                <personaje tipo="jugable1">Arkan</personaje>
+                <personaje tipo="jugable2">Valerian</personaje>
+            </personajes>
+        </Juego>
+        <Juego id="2">
+            <titulo>Space Invaded 2</titulo>
+            <anio>1971</anio>
+            <consola>Atari</consola>
+            <genero>Mature</genero>
+            <modo_multijugador>Si</modo_multijugador>
+            <personajes>
+                <personaje tipo="jugable1">Arkan</personaje>
+                <personaje tipo="jugable2">Valerian</personaje>
+            </personajes>
+        </Juego>
+        <Juego id="3">
+            <titulo>Space Invaded 3</titulo>
+            <anio>1972</anio>
+            <consola>Atari</consola>
+            <genero>Mature</genero>
+            <modo_multijugador>Si</modo_multijugador>
+            <personajes>
+                <personaje tipo="jugable1">Arkan</personaje>
+                <personaje tipo="jugable2">Valerian</personaje>
+            </personajes>
+        </Juego>
+        <Juego id="4">
+            <titulo>Space Invaded 4</titulo>
+            <anio>1973</anio>
+            <consola>Atari</consola>
+            <genero>Mature</genero>
+            <modo_multijugador>Si</modo_multijugador>
+            <personajes>
+                <personaje tipo="jugable1">Arkan</personaje>
+                <personaje tipo="jugable2">Valerian</personaje>
+            </personajes>
+        </Juego>
+    </Juegos>
+</Catalogo_Juegos>

@@ -1,0 +1,79 @@
+<sistema_solar>
+    <planetas>
+        <planeta tipo="1">
+            <general>
+                <nombre>Marte</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>1600</masa>
+                <diametro>6700</diametro>
+                <distancia_sol>227,940,000</distancia_sol>
+            </datos>
+        </planeta>
+        <planeta tipo="2">
+            <general>
+                <nombre>Saturno</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>1600</masa>
+                <diametro>6700</diametro>
+                <distancia_sol>227,940,000</distancia_sol>
+            </datos>
+        </planeta>
+            <planeta tipo="3">
+            <general>
+                <nombre>Jupiter</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>1600</masa>
+                <diametro>6700</diametro>
+                <distancia_sol>227,940,000</distancia_sol>
+            </datos>
+        </planeta>
+            <planeta tipo="4">
+            <general>
+                <nombre>Tierra</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>5900</masa>
+                <diametro>12700</diametro>
+                <distancia_sol>225,940,000</distancia_sol>
+            </datos>
+        </planeta>
+                <planeta tipo="5">
+            <general>
+                <nombre>Tierra</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>5900</masa>
+                <diametro>12700</diametro>
+                <distancia_sol>230,940,000</distancia_sol>
+            </datos>
+        </planeta>
+                <planeta tipo="6">
+            <general>
+                <nombre>Tierra</nombre>
+                <tipo>Rocoso</tipo>
+            </general>
+            <datos>
+                <masa>5800</masa>
+                <diametro>12800</diametro>
+                <distancia_sol>220,940,000</distancia_sol>
+            </datos>
+        </planeta>
+    </planetas>
+    <Lunas>
+        <luna nombre="1">Super Luna</luna>
+        <luna nombre="2">Luna Azul</luna>
+        <luna nombre="3">Luna Sangre</luna>
+    </Lunas>
+    <Asteroides>
+        <asteroide id="1">Ceres</asteroide>
+        <asteroide id="2">Pallas</asteroide>
+    </Asteroides>
+</sistema_solar>

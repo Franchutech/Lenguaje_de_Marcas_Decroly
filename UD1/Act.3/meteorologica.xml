@@ -1,0 +1,61 @@
+<Clima>
+    <Días>
+        <día fecha="1">
+            <temperaturas>
+                <Temperatura tipo="max">38</Temperatura>
+                <Temperatura tipo="min">12</Temperatura>
+            </temperaturas>
+            <caracteristicas>
+                <caracteristica nombre="humedad">70%</caracteristica>
+                <caracteristica nombre="viento">45 KM/H</caracteristica>
+            </caracteristicas>
+            <fenomenos>
+                <fenomeno estilo="1">Calor Extremo</fenomeno>
+                <fenomeno estilo="2">Viento</fenomeno>
+            </fenomenos>
+        </día>
+        <día fecha="1">
+            <temperaturas>
+                <Temperatura tipo="max">20</Temperatura>
+                <Temperatura tipo="min">2</Temperatura>
+            </temperaturas>
+            <caracteristicas>
+                <caracteristica nombre="humedad">50%</caracteristica>
+                <caracteristica nombre="viento">60 KM/H</caracteristica>
+            </caracteristicas>
+            <fenomenos>
+                <fenomeno estilo="1">Posibilidad Nieve</fenomeno>
+                <fenomeno estilo="2">Viento Extremo</fenomeno>
+            </fenomenos>
+        </día>
+        <día fecha="1">
+            <temperaturas>
+                <Temperatura tipo="max">35</Temperatura>
+                <Temperatura tipo="min">11</Temperatura>
+            </temperaturas>
+            <caracteristicas>
+                <caracteristica nombre="humedad">20%</caracteristica>
+                <caracteristica nombre="viento">12 KM/H</caracteristica>
+            </caracteristicas>
+            <fenomenos>
+                <fenomeno estilo="1">Ola Calor</fenomeno>
+                <fenomeno estilo="2">Sin Viento</fenomeno>
+            </fenomenos>
+        </día>
+        <día fecha="1">
+            <temperaturas>
+                <Temperatura tipo="max">19</Temperatura>
+                <Temperatura tipo="min">4</Temperatura>
+            </temperaturas>
+            <caracteristicas>
+                <caracteristica nombre="humedad">90%</caracteristica>
+                <caracteristica nombre="viento">45 KM/H</caracteristica>
+            </caracteristicas>
+            <fenomenos>
+                <fenomeno estilo="1">Lluvias</fenomeno>
+                <fenomeno estilo="2">Tormentas</fenomeno>
+            </fenomenos>
+        </día>
+
+    </Días>
+</Clima>

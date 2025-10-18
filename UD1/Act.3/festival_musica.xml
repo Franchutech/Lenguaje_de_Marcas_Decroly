@@ -1,0 +1,88 @@
+<programa_festival>
+    <días>
+        <día id="1">
+            <escenario nombre="A">
+                <Actuación tipo="A1">
+                    <artista>Katty Perry</artista>
+                    <hora>9:00pm</hora>
+                    <estilo>Pop</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+                <Actuación tipo="A2">
+                    <artista>Nigthwish</artista>
+                    <hora>11:00pm</hora>
+                    <estilo>Rock Sinfónico</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+            </escenario>
+            <escenario nombre="B">
+                <Actuación tipo="B1">
+                    <artista>Yanni</artista>
+                    <hora>8:00pm</hora>
+                    <estilo>Instrumental</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+                <Actuación tipo="B2">
+                    <artista>Tylor Swift</artista>
+                    <hora>7:00pm</hora>
+                    <estilo>Pop country</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+            </escenario>
+        </día>
+        <día id="2">
+            <escenario nombre="C">
+                <Actuación tipo="C1">
+                    <artista>John Williams</artista>
+                    <hora>6:00pm</hora>
+                    <estilo>Instrumental</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+                <Actuación tipo="C2">
+                    <artista>Hans Zimmer</artista>
+                    <hora>6:00pm</hora>
+                    <estilo>Bandas Sonoras</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+            </escenario>
+            <escenario nombre="D">
+                <Actuación tipo="D1">
+                    <artista>Ludovico Enaudi</artista>
+                    <hora>9:00pm</hora>
+                    <estilo>Piano</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+                <Actuación tipo="D2">
+                    <artista>Samvel Yervinyan</artista>
+                    <hora>9:00pm</hora>
+                    <estilo>Violin</estilo>
+                    <canciones>
+                        <cancion nombre="1">Cancion 1</cancion>
+                        <cancion nombre="2">Cancion 2</cancion>
+                    </canciones>
+                </Actuación>
+            </escenario>
+        </día>
+    </días>
+</programa_festival>

@@ -1,0 +1,37 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* más parecida a la del ejemplo */
+  background-color: #fff;
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+
+.grupo {
+  display: flex;                  /* cambio de grid a flex para controlar mejor el espacio */
+  justify-content: center;        /* centra todo el conjunto */
+  align-items: flex-start;
+  gap: 0;                         /* elimina separación extra entre pasos */
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.paso {
+  max-width: 155px;               /* más estrecho */
+  margin: 0 8px;                  /* pequeño espacio lateral entre pasos */
+}
+
+/* Imagen */
+.paso img {
+  width: 95px;
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+/* Texto */
+.paso p {
+  font-size: 14px;                /* igual al tamaño visual del ejemplo */
+  line-height: 1.3;
+  color: #444;
+  margin: 0;
+  text-align: left;                /* Justifiqué el texto porque no se veía igual*/
+}

@@ -1,0 +1,14 @@
+<peninsula_iberica>
+    <contiene>Portugal, España, Andorra, Sur de Francia, Gibraltar</contiene>
+    <limites>
+        <norte>Mar Cantábrico, Pirineos</norte>
+        <este>Mar Mediterráneo</este>
+        <oeste>Oceano Atlántico</oeste>
+        <sur>Alborán, Gibraltar</sur>
+    </limites>
+    <relieve>
+        <rlv tipo="1">Mesetas Centrales</rlv>
+        <rlv tipo="2"> Cordillera Periférica</rlv>
+        <rlv tipo="3"> Costas</rlv>
+    </relieve>
+</peninsula_iberica>
