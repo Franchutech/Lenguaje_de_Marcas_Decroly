@@ -1,3 +1,4 @@
+# Lenguaje de Marcas – Decroly
 
 Cada carpeta representa una unidad didáctica (UD) del curso.  
 Dentro de cada unidad se encuentran las actividades correspondientes, organizadas y documentadas individualmente.
@@ -16,6 +17,16 @@ Cuando una actividad genera un resultado visual (por ejemplo, una página HTML o
 ## Resultados visuales por unidad
 
 ### Unidad 2 – Tablas y Estilos CSS
+
+#### Actividad 4 – Gestión de Pistas de Pádel
+Proyecto práctico de maquetación y estilos, centrado en la aplicación del modelo de caja, posicionamiento con Flexbox y diferenciación visual mediante clases CSS.  
+El objetivo consistía en diseñar una página web funcional para la gestión de reservas de un club deportivo, incluyendo encabezado, tarjetas informativas y pie de página.
+
+**Resultado final:**
+
+![Gestión de Pistas de Pádel](UD2/UD2_P4_Francella_Rojas-Pistas_Padel/img/finish_proyect_v2.png)
+
+---
 
 #### Actividad 2 – Réplica de modelo HTML
 Ejercicio de maquetación basado en una imagen proporcionada por el profesor, para practicar estructura y uso básico de etiquetas HTML.

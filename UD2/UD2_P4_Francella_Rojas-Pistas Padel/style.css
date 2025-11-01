@@ -1,0 +1,105 @@
+.pista {
+    width: 200px;          /* ancho del contenido */
+    padding: 15px;          /* espacio interno entre el texto y el borde */
+    border: 2px solid black;/* línea del borde */
+    margin: 10px;           /* espacio externo entre una pista y otra */
+}
+.foto-pista {
+    width: 100%;           /* que ocupe todo el ancho del cuadrante */
+    height: 160px;         /* altura fija para que todas se vean iguales */
+    object-fit: cover;     /* recorta sin deformar */
+    border-radius: 4px;    /* bordes ligeramente redondeados */
+    margin-bottom: 10px;   /* separa la foto del texto */
+}
+
+.contenedor-pistas {
+    display: flex;              /* Activa Flexbox */
+    flex-wrap: wrap;            /* Permite que las pistas salten a otra línea */
+    justify-content: center;    /* Centra las pistas horizontalmente */
+    gap: 20px;                  /* Espacio uniforme entre las pistas */
+    margin-top: 20px;           /* Separación del encabezado */
+}
+.libre {
+    background-color: #E0F5EC;   /* verde azulado muy claro, inspirado en la curva */
+    color: #003F2F;              /* verde oscuro para el texto */
+}
+
+.reservada {
+    background-color: #E4EAF5;   /* azul muy claro */
+    color: #1A274C;              /* azul profundo para el texto */
+}
+/* Estilo general para los botones --- */
+button {
+    padding: 8px 15px;           /* espacio interno */
+    margin: 5px;                 /* separación entre botones */
+    border: none;                /* sin borde predeterminado */
+    border-radius: 5px;          /* esquinas redondeadas */
+    cursor: pointer;             /* cambia el cursor al pasar el ratón */
+    font-weight: bold;
+}
+
+/* Diferenciar los tipos de botón --- */
+.reservar {
+    background-color: #4CAF50;   /* verde */
+    color: white;
+}
+
+.cancelar {
+    background-color: #f44336;   /* rojo */
+    color: white;
+}
+
+/*  Posicionar los botones dentro de la tarjeta --- */
+.pista {
+    position: relative;          /* referencia para los botones absolutos */
+}
+
+button {
+    position: relative;          /* puedes cambiarlo a absolute si quieres probar */
+}
+/* Estilos para el encabezado --- */
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid #4CAF50;
+}
+
+/* Estilos para la imagen del encabezado*/
+.banner {
+    width: 100%;            /* ocupa todo el ancho del header */
+    height: 250px;          /* alto fijo del banner */
+    object-fit: cover;      /* ajusta la imagen sin deformarla */
+    border-bottom: 3px solid #4CAF50; /* línea verde decorativa */
+}
+
+
+/* Estilos para el pie de página --- */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    border-top: 3px solid #4CAF50;
+}
+
+/* Correccion para los botones, activa e inactiva, según */
+button {
+    opacity: 1;
+    pointer-events: auto; /* Permite hacer clic (aunque no hay funcionalidad) */
+}
+
+/* Si la pista está libre → desactiva el botón de cancelar */
+.libre .cancelar {
+    opacity: 0.4;           /* visualmente más apagado */
+    pointer-events: none;   /* bloquea interacción */
+}
+
+/* Si la pista está reservada → desactiva el botón de reservar */
+.reservada .reservar {
+    opacity: 0.4;
+    pointer-events: none;
+}
