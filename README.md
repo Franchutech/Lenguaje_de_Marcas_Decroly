@@ -24,7 +24,9 @@ El objetivo consistía en diseñar una página web funcional para la gestión de
 
 **Resultado final:**
 
-![Gestión de Pistas de Pádel](UD2/UD2_P4_Francella_Rojas-Pistas_Padel/img/finish_proyect_v2.png)
+![Gestión de Pistas de Pádel](./UD2/UD2_P4_Francella_Rojas-Pistas%20Padel/img/finish_proyect_v2.png)
+
+
 
 ---
 
