@@ -1,0 +1,96 @@
+/* Cuerpo general */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Define la tipografía del texto general */
+  margin: 0;                                /* Elimina el margen externo del navegador */
+  padding: 0;                               /* Elimina el relleno interno por defecto */
+  background-color: #f6f6f6;                /* Color de fondo general de la página */
+  color: #222;                              /* Color del texto (gris oscuro) */
+}
+
+/* Encabezado principal con imagen de fondo */
+header {
+  background-image: url("img/wmremove-transformed.jpeg"); /* Coloca una imagen de fondo en el header */
+  background-size: cover;           /* Hace que la imagen cubra todo el ancho sin deformarse */
+  background-position: center;      /* Centra la imagen en el header */
+  height: 300px;                    /* Altura del banner */
+  color: white;                     /* Color del texto en blanco */
+  text-align: center;               /* Centra el texto horizontalmente */
+  position: relative;               /* Permite superponer la capa oscura encima del fondo */
+}
+
+/* Capa oscura sobre el banner para mejorar la lectura del texto */
+header::before {
+  content: "";                      /* Crea un elemento vacío (necesario para pseudo-elemento) */
+  position: absolute;               /* Lo posiciona de forma absoluta dentro del header */
+  top: 0;                           /* Alinea la capa en la parte superior */
+  left: 0;                          /* Alinea la capa al borde izquierdo */
+  width: 100%;                      /* Hace que cubra todo el ancho del header */
+  height: 100%;                     /* Hace que cubra toda la altura del header */
+  background: rgba(0, 0, 0, 0.4);   /* Aplica una capa negra semitransparente sobre la imagen */
+}
+
+/* Contenedor del texto dentro del header */
+.contenido-header {
+  position: relative;               /* Mantiene el texto por encima de la capa oscura */
+  z-index: 1;                       /* Asigna prioridad visual sobre el pseudo-elemento */
+  padding: 60px 20px;               /* Agrega espacio interno superior y lateral */
+}
+
+/* Título principal del header */
+.contenido-header h1 {
+  margin: 0;                        /* Elimina margen superior e inferior del título */
+  font-size: 2.5rem;                /* Define el tamaño grande del texto del título */
+  font-weight: bold;                /* Aplica negrita al título */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* Añade sombra para que el texto se lea mejor sobre la imagen */
+}
+
+/* Párrafo descriptivo dentro del banner */
+.contenido-header p {
+  font-size: 1rem;                  /* Tamaño de letra del párrafo */
+  background: rgba(0,0,0,0.5);      /* Fondo oscuro semitransparente para resaltar el texto */
+  padding: 10px 15px;               /* Espacio interior del recuadro del párrafo */
+  border-radius: 5px;               /* Bordes redondeados del recuadro */
+  margin-top: 20px;                 /* Espacio entre el título y el párrafo */
+}
+
+/* Contenedor de las tres secciones (precios, promociones, grupos) */
+.contenedor-secciones {
+  display: flex;                    /* Usa Flexbox para alinear las secciones en fila */
+  justify-content: center;          /* Centra las secciones horizontalmente en la página */
+  flex-wrap: wrap;                  /* Permite que las secciones bajen si no caben en una fila */
+  gap: 20px;                        /* Espacio entre cada bloque de sección */
+  padding: 30px;                    /* Espacio interno del contenedor respecto al borde */
+}
+
+/* Estilo general de cada sección (tarjeta) */
+.contenedor-secciones section {
+  width: 28%;                       /* Cada sección ocupa aproximadamente un tercio del ancho */
+  min-width: 260px;                 /* Tamaño mínimo para evitar que se compriman demasiado */
+  padding: 15px;                    /* Espacio interno dentro de cada tarjeta */
+  border-radius: 8px;               /* Bordes redondeados para un diseño más suave */
+  border: 2px solid #142850;        /* Borde azul oscuro alrededor de cada tarjeta */
+  text-align: left;                 /* Alinea el contenido de texto hacia la izquierda */
+}
+
+/* Sección de precios individuales */
+.individuales {
+  background-color: #a8bce4;        /* Color de fondo azul claro */
+}
+
+/* Sección de promociones */
+.promociones {
+  background-color: #c7a8dc;        /* Color de fondo violeta claro */
+}
+
+/* Sección de precios para grupos */
+.grupos {
+  background-color: #f5a9c3;        /* Color de fondo rosa pastel */
+}
+
+/* Pie de página */
+footer {
+  background-color: #142850;        /* Color de fondo azul oscuro */
+  color: white;                     /* Texto blanco para contraste */
+  text-align: center;               /* Centra el texto horizontalmente */
+  padding: 50px;                    /* Espacio interno del pie de página */
+}

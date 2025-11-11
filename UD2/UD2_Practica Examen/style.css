@@ -1,10 +1,123 @@
-/*Estilos Generales*/
+/* ==========================
+   ESTILOS GENERALES
+   ========================== */
 
-
+/* --- CUERPO PRINCIPAL DE LA PÁGINA --- */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f6f6f6;
-  color: #222;
+  font-family: Arial, Helvetica, sans-serif; /* Define la tipografía general */
+  margin: 0;                                 /* Elimina márgenes por defecto del navegador */
+  padding: 0;                                /* Elimina rellenos por defecto */
+  background-color: #f6f6f6;                 /* Color de fondo general (gris claro) */
+  color: #222;                               /* Color del texto principal (gris oscuro) */
+}
+
+/* ==========================
+   ENCABEZADO (BANNER SUPERIOR)
+   ========================== */
+header {
+  background-image: url("img/wmremove-transformed.jpeg"); /* Imagen de fondo del banner */
+  background-size: cover;             /* La imagen cubre todo el ancho sin deformarse */
+  background-position: center;        /* Centra la imagen dentro del banner */
+  height: 350px;                      /* Altura total del banner */
+  display: flex;                      /* Activa Flexbox para centrar el contenido */
+  justify-content: center;            /* Centra horizontalmente el contenido del banner */
+  text-align: center;                 /* Centra el texto dentro del bloque */
+  color: white;                       /* Texto en blanco */
+  position: relative;                 /* Necesario para colocar la capa oscura encima */
+}
+
+/* --- Capa oscura sobre la imagen (mejora la legibilidad del texto) --- */
+header::before {
+  content: "";                        /* Crea un elemento vacío */
+  position: absolute;                 /* Se coloca sobre toda el área del header */
+  top: 0; left: 0;                    /* Empieza desde la esquina superior izquierda */
+  width: 100%; height: 100%;          /* Cubre todo el ancho y alto del header */
+  background: rgba(0, 0, 0, 0.4);     /* Color negro semitransparente */
+}
+
+/* --- Contenedor del texto dentro del banner --- */
+.contenido-header {
+  position: relative;                 /* Permite superponer el texto por encima del overlay */
+  z-index: 1;                         /* Da prioridad visual sobre la capa oscura */
+  max-width: 900px;                   /* Ancho máximo del bloque de texto */
+  padding: 60px 20px;                 /* Espaciado interno (arriba y a los lados) */
+}
+
+/* --- Título principal del banner --- */
+.contenido-header h1 {
+  font-size: 3rem;                    /* Tamaño grande del título */
+  font-weight: bold;                  /* Texto en negrita */
+  margin-bottom: 20px;                /* Espacio debajo del título */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Sombra para hacerlo legible sobre la imagen */
+}
+
+/* --- Párrafo descriptivo del banner --- */
+.contenido-header p {
+  font-size: 1.1rem;                  /* Tamaño medio del texto */
+  background: rgba(0, 0, 0, 0.6);     /* Fondo oscuro semitransparente detrás del texto */
+  padding: 12px 20px;                 /* Espacio interno alrededor del texto */
+  border-radius: 8px;                 /* Bordes redondeados para suavizar el bloque */
+  color: #f8f8f8;                     /* Texto en gris claro */
+  margin-top: 30px;                   /* Baja el párrafo un poco respecto al título */
+}
+
+/* ==========================
+   SECCIONES PRINCIPALES (CONTENEDOR)
+   ========================== */
+
+/* --- Contenedor general que alinea las tres secciones en fila --- */
+.contenedor-secciones {
+  display: flex;                      /* Activa Flexbox (alineación horizontal) */
+  justify-content: center;            /* Centra todas las secciones en la pantalla */
+  gap: 20px;                          /* Espacio entre los bloques */
+  flex-wrap: wrap;                    /* Permite que se adapten a varias filas si no caben */
+  padding: 40px;                      /* Espaciado externo respecto al borde de la página */
+  text-align: left;                   /* Alinea el contenido de texto dentro de cada bloque */
+}
+
+/* --- Formato general para cada sección (tarjeta) --- */
+.contenedor-secciones section {
+  width: 28%;                         /* Cada sección ocupa aprox. 1/3 del ancho */
+  min-width: 260px;                   /* Evita que se deformen en pantallas pequeñas */
+  padding: 20px;                      /* Espacio interior */
+  border-radius: 10px;                /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra ligera para dar relieve */
+  transition: transform 0.3s ease;    /* Animación suave al pasar el ratón */
+}
+
+/* --- Efecto al pasar el ratón sobre cada bloque --- */
+.contenedor-secciones section:hover {
+  transform: scale(1.03);             /* Agranda levemente la tarjeta (efecto visual) */
+}
+
+/* ==========================
+   COLORES DE CADA BLOQUE
+   ========================== */
+
+/* --- Sección: Precios individuales --- */
+.individuales {
+  background-color: #a5b7e1;          /* Azul pastel, combina con el banner */
+  border: 2px solid #142850;          /* Azul oscuro para el borde */
+}
+
+/* --- Sección: Promociones --- */
+.promociones {
+  background-color: #cda5e0;          /* Violeta suave */
+  border: 2px solid #7b1fa2;          /* Borde violeta más fuerte */
+}
+
+/* --- Sección: Grupos --- */
+.grupos {
+  background-color: #f4a3c4;          /* Rosa pastel */
+  border: 2px solid #c2185b;          /* Rosa oscuro para contraste */
+}
+
+/* ==========================
+   PIE DE PÁGINA
+   ========================== */
+footer {
+  background-color: #142850;          /* Fondo azul oscuro */
+  color: white;                       /* Texto blanco */
+  text-align: center;                 /* Centra el texto del pie */
+  padding: 10px;                      /* Espacio interno */
 }
