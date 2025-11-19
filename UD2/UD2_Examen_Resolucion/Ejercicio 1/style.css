@@ -1,0 +1,67 @@
+/*ESTILOS GENERALES*/
+
+/* area principal*/
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+  margin: 0;
+  padding: 0;
+  background-image: url(img/fondo_pagina.jpg);     
+  color: white;                              
+  text-align: center;
+}
+.h1 {
+    text-shadow: 2px 2px 5px #000000;  
+    font-size: 3rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.h2 {
+    text-shadow: 2px 2px 5px #000000;  
+    font-size: 3rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Logo Decroly*/
+.logo_decroly {
+  position: absolute;         
+  top: 10px;                 
+  right: 20px;                
+  width: 200px;              
+  height: auto;               
+  filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));               
+}
+
+/* GRID PRINCIPAL*/
+.container {
+  display: grid;                              
+  grid-template-columns: repeat(4, 1fr);      
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: 10px;                                  
+  padding: 20px;
+  text-align: center;
+}
+
+.grado_basico {
+  grid-column: 1;       
+  grid-row: 4;
+}
+.grado_medio {
+  grid-column: 2;       
+  grid-row: 4;
+}
+.grado_superior {
+  grid-column: 3;       
+  grid-row: 4;
+}
+
+footer {
+  grid-column: 1 / 4;   /* Ocupa todo el ancho */
+  grid-row: 4;
+  background-color: #15578d;   /* Rojo más oscuro */
+  padding: 10px;
+  font-weight: bold;
+}
